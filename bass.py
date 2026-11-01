@@ -31,7 +31,7 @@ except Exception:
 
 # ═══════════════════════════ تنظیمات اصلی ═══════════════════════════
 BASE = Path(__file__).resolve().parent
-TOKEN = os.getenv("BOT_TOKEN", "8007880411:AAGRU2mOE1-Q7qaqxUrPoEdEq7BsqX71Imw")
+TOKEN = os.getenv("BOT_TOKEN", "8283289700:AAFmenImBoyJlZ6bAEOLx8IL4S0lOiu7MUU")
 ADMINS = {1601379026} | {int(x) for x in os.getenv("ADMIN_IDS", "").replace(" ", "").split(",") if x}
 
 # برای فایل‌های بالای ۲۰ مگ (حالت فایل بزرگ). ربات موقع راه‌اندازی اینا رو چک می‌کنه؛
